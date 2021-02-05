@@ -13,6 +13,7 @@ $(document).ready(function(){
 	  paragraph.contentEditable = false;
 	  
 	});*/
+	$("#cslide").carousel({interval: 2000});
 
 	var paragraph1 = document.getElementById("edit1");
 	var edit_button1 = document.getElementById("edit-button1");
